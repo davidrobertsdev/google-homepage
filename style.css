@@ -1,6 +1,9 @@
 body {
     margin: 0;
     padding: 0;  
+    height: 100%;
+    font-family: arial,sans-serif;
+    font-size: 14px;
 }
 
 
@@ -11,6 +14,9 @@ body {
 .top-right-nav {
     float: right;
 }
+ul {
+    padding: 8px;
+}
 
 li  {
     display: inline;
@@ -18,25 +24,55 @@ li  {
     text-decoration: none;
 }
 
-.main-content {
- position: relative;
- top: 200px;
- display: flex;
- justify-content: center;
- flex-direction: column;
- align-items: center;
- padding:40px;
+.sign-in-button {
+    background-color:#2b7de9;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 90px;
 
- ;
+}
+
+.main-content {
+    width: 100%;
+    position: relative;
+    top: 125px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ 
+ 
 }
  
-
-img {
-    width: 350px;
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
 }
+
 
 form {
     padding: 20px;
+}
+ i {
+    position: absolute;
+}
+input {
+    width: 550px;
+    box-shadow: none;
+    border-radius: 35px;
+    border: solid 1px  	#E8E8E8;
+    height: 40px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background:#F5F5F5;
+    margin: 8px;
 }
 
 footer {
@@ -44,6 +80,8 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;  
+    background:#F5F5F5;
+    height: 40px;
   }
 
   .footer-nav-left {
@@ -51,6 +89,8 @@ footer {
   }
 .footer-center {
 text-align: center;
+margin:auto;
+width: 150px;
 }
   .footer-nav-right {
     float: right;

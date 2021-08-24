@@ -2,6 +2,9 @@
 <html>
     <head>
         <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" 
+        href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <nav class="top-nav">
@@ -13,27 +16,28 @@
                 <li><a>Gmail</a></li>
                 <li><a>Images</a></li>    
                 <li><a>Apps</a></li>
-                <li><a>Sign In</a></li>    
+                <li><button class="sign-in-button">Sign In</button></li>    
             </ul>
         </nav>
             <main class="main-content">
-                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" >
+                <div class="logo-section"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" ></div>
                 <form>
+                    <i class="fas fa-search"></i>
                     <input type = "searchbox">
                 </form>
                 <div>
-                    <button>Google Search</button>
-                    <button>I'm Feeling Lucky</button>
+                    <button class="main-buttons">Google Search</button>
+                    <button class="main-buttons">I'm Feeling Lucky</button>
                 </div>
             </main>
         <footer>
-            <ul>
+            <ul class="footer-nav-left">
                 <li><a>Advertising</a></li>
                 <li><a>Business</a></li> 
                 <li><a>How Search Works?</a></li>   
             </ul>
-            <p><a>Carbon Neutral Since 2007</a></p>
-            <ul>
+            <p class=" footer-center"><a>Carbon Neutral Since 2007</a></p>
+            <ul class="footer-nav-right">
                 <li><a>Privacy</a></li>
                 <li><a>Terms</a></li>    
                 <li><a>Settings</a></li>   
