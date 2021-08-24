@@ -52,7 +52,12 @@ form {
     padding: 20px;
 }
  i {
+    font-weight: 300;
+    color: rgb(143, 136, 136);
+    font-size: 18px;
     position: absolute;
+    left: 454px;
+    top: 138px;
 }
 input {
     width: 550px;
@@ -73,6 +78,7 @@ button{
 footer {
     display: flex;
     justify-content: space-between;
+    align-content: center;
     position: fixed; 
     bottom: 0;
     width: 100%;  
@@ -82,7 +88,7 @@ footer {
   }
 
   footer li {
-      margin: 15px;
+      margin: 10px;
       padding: 5px;
 
   }
