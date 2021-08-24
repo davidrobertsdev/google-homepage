@@ -24,7 +24,7 @@ li  {
     text-decoration: none;
 }
 
-.sign-in-button {
+#sign-in-button{
     background-color:#2b7de9;
     border: none;
     color: white;
@@ -43,17 +43,11 @@ li  {
     flex-direction: column;
     align-items: center;
  
- 
 }
  
-.logo-section {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    
+img {
+    margin-bottom: 10px;
 }
-
-
 form {
     padding: 20px;
 }
@@ -68,11 +62,12 @@ input {
     height: 40px;
 }
 
-button {
-    padding: 10px;
-    border: none;
-    background:#F5F5F5;
-    margin: 8px;
+button{
+    padding: 8px 16px;
+   border-radius: 4px;
+    background:f8f9fa;
+    margin: 11px 4px;
+    border: 1px solid #f8f9fa;
 }
 
 footer {
